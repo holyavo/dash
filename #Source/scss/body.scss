@@ -1,0 +1,27 @@
+body{
+    background: 
+        url("/dash/img/bg_1.png") 980px -850px no-repeat, 
+        url("/dash/img/bg_2.png") -780px 1850px no-repeat, 
+        url("/dash/img/bg_3.png") 1180px 3830px no-repeat, 
+        url("/dash/img/bg_4.png") 0 4670px no-repeat;
+   
+    //height: 5310px;
+}
+
+.container{
+    max-width: 1615px;
+    margin: 0 7.5%;
+    padding: 0 0 6%;
+}
+
+@media all and(max-width: 1118px){
+    
+    body{
+        background: 
+        url("/dash/img/bg_1.png") 980px -850px no-repeat, 
+        //url("/dash/img/bg_2.png") -780px 1850px no-repeat, 
+        url("/dash/img/bg_3.png") 1180px 3830px no-repeat, 
+        url("/dash/img/bg_4.png") 0 4670px no-repeat;
+    }
+
+}

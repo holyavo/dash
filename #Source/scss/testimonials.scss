@@ -1,0 +1,51 @@
+.testimonials{
+    padding: 18% 0 0 0;
+    
+    &__title{
+        font-size: calc(20px + 30 * (100vw / 1920));
+        line-height: calc(20px + 40 * (100vw / 1920));
+        text-align: center;
+        
+        h2{
+            font-family: 'Muli';
+            font-weight: bold;
+        }
+
+    }
+    
+    &__body{
+        max-width: 1200px;
+        margin: 0 auto;
+                
+    }
+}
+
+
+
+@media all and (max-width: 1104px){
+    
+    .testimonials__body{
+        max-width: 750px;
+    }
+}
+
+@media all and (max-width: 761px){
+    
+    .testimonials__body{
+        max-width: 370px;
+    }
+    
+    .testimonial{
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media all and (max-width: 1176px){
+    
+    .testimonials{
+        padding: 0;
+    }
+}

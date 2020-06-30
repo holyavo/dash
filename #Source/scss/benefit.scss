@@ -1,0 +1,58 @@
+.benefits{
+    padding: 11.8% 0 0 0;
+    
+    font-family: 'Muli';
+    
+    &__container{
+        max-width: 1094px;
+        margin: 0 auto;
+    }
+    
+    &__title{
+        max-width: 780px;
+        margin: 0 auto 6.5%;
+        text-align: center;
+        h2{
+             font-size: calc(25px + 25 * (100vw / 1920));
+             line-height: calc(20px + 40 * (100vw / 1920));
+            font-weight: bold;
+        }
+    }
+    
+    &__body{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+.benefit{
+    flex: 0 0 310px;
+    text-align: center;
+    padding: 10% 0 0;
+    
+    &__img{
+        margin: 0 0 calc(10px + 30 * (100vh/1920));
+    }
+    &__subtitle{
+        margin: 0 40px calc(5px + 35 * (100vh/1920));
+        h3{
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+    
+    &__text{
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media all and(max-width: 1176px){
+
+    .benefits{
+        padding-bottom: 20%;
+    }
+}
+
+
